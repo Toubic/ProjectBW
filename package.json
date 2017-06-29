@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon -L app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Toubic/ProjectBW/issues"
   },
-  "homepage": "https://github.com/Toubic/ProjectBW#readme"
+  "homepage": "https://github.com/Toubic/ProjectBW#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
