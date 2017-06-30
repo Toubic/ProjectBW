@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const express = require('express');
 const app = express();
@@ -11,8 +11,12 @@ try {
         res.sendFile('index.html');
     });
 
+    app.get('*', function (req, res) {
+        res.send('The page does not exist.');
+    });
+
     app.listen(process.env.PORT || 3000, function () {
-        console.log("Server started!");
+        console.log('Server started!');
     });
 }
 catch (e){
