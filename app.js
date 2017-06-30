@@ -11,6 +11,8 @@ try {
         res.sendFile('index.html');
     });
 
+    // Send page missing message for all other routes that does not exist.
+
     app.get('*', function (req, res) {
         res.send('The page does not exist.');
     });
