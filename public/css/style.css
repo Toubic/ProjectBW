@@ -4,7 +4,10 @@ html{
 }
 
 body{
+    background-image: url('../images/bw.gif');
     background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #earth_div{
     top: 0;
