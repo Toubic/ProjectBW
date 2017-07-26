@@ -4,9 +4,15 @@
     <title>Boogie Woogie camps!</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="http://www.webglearth.com/v2/api.js"></script>
-    <script src="js/initializeGlobe.js"></script>
+    <script>
+        function initialize() {
+            var earth = new WE.map('earth_div');
+            WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(earth);
+        }
+    </script>
 </head>
-<body onload="initializeGlobe()">
-    <div id="earth_div"></div>
+<body onload="initialize()">
+<div id="earth_div" style="width:600px;height:400px;"></div>
 </body>
 </html>
+
