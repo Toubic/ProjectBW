@@ -3,16 +3,18 @@
 <head>
     <title>Boogie Woogie camps!</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="http://www.webglearth.com/v2/api.js"></script>
-    <script>
-        function initialize() {
-            var earth = new WE.map('earth_div');
-            WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(earth);
-        }
-    </script>
 </head>
-<body onload="initialize()">
-<div id="earth_div" style="width:600px;height:400px;"></div>
+<body>
+    <nav>
+    </nav>
+    <main>
+        <div id="map"></div>
+        <script src="js/initializeMap.js"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA_8el5Kew_yrKco5EG5ozaLMXzoHzKU0&callback=initMap">
+        </script>
+    </main>
+    <footer>
+    </footer>
 </body>
 </html>
-

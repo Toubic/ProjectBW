@@ -6,4 +6,16 @@ html{
 body{
     background-color: black;
     background-size: cover;
+    background-image: url("../images/bw.gif");
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 50px;
+}
+#map{
+    margin: auto;
+    height: 720px;
+    width: 80%;
+    opacity: 0.2;
 }
