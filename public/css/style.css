@@ -5,17 +5,28 @@ html{
 
 body{
     background-color: black;
-    background-size: cover;
-    background-image: url("../images/bw.gif");
-    height: 100%;
-    width: 100%;
 }
 nav{
     height: 50px;
 }
+h1{
+    color: white;
+    text-align: center;
+    font-family: Broadway;
+    font-size: xx-large;
+}
+main{
+    padding: 50px;
+    background-size: cover;
+    background-image: url("../images/bw.gif");
+}
+footer{
+    height: 50px;
+}
 #map{
     margin: auto;
-    height: 720px;
-    width: 80%;
-    opacity: 0.2;
+    height: 500px;
+    width: 60%;
+    opacity: 0.8;
+    border-radius: 500px;
 }
