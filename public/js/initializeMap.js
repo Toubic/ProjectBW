@@ -84,8 +84,27 @@ function initMap() {
             }
         ]
     });
-    var marker = new google.maps.Marker({
-        position: uluru,
-        map: map
-    });
+
+    function createMarkerWithInfo(lat, long, title, link) {
+        var marker = new google.maps.Marker({
+            position: {lat: lat, lng: long},
+            map: map
+        });
+
+        var content =
+            '<h2>' + title + '</h2>'+
+            '<a href="' + link + '">'+
+            '' + link + '</a>';
+
+
+        var infoWindow = new google.maps.InfoWindow({
+            content: content
+        });
+        marker.addListener('click', function() {
+            infoWindow.open(map, marker);
+        });
+
+    }
+
+    createMarkerWithInfo(59.8552777778, 17.6319444444, 'Uppsala Boogie Woogie Weekend', 'http://swingkatten.se/lagerochevenemang');
 }
