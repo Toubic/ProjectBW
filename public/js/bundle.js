@@ -1,4 +1,5 @@
 'use strict';
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 2,
@@ -108,3 +109,5 @@ function initMap() {
 
     createMarkerWithInfo(59.8552777778, 17.6319444444, 'Uppsala Boogie Woogie Weekend', 'http://swingkatten.se/lagerochevenemang');
 }
+
+initMap();
