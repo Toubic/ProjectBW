@@ -44,6 +44,9 @@ function generateMarkersForWorldMap(map) {
     // Poland:
     createMarkerWithInfo(53.6671796, 17.359013, 'Polish Boogie Festival', 'http://www.polishboogie.com/en/', map);
 
+    // Russia:
+    createMarkerWithInfo(55.7558, 37.6173, 'Moscow Christmas Swing Dance Camp', 'http://mxdc.ru/en/', map);
+
     // Sweden:
     createMarkerWithInfo(60.128201, 18.648209, 'Herräng Dance Camp Week 1', 'https://www.herrang.com/program/week-1', map);
     createMarkerWithInfo(59.8552777778, 17.6319444444, 'Uppsala Boogie Woogie Weekend', 'http://swingkatten.se/lagerochevenemang', map);
