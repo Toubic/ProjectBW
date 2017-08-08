@@ -37,11 +37,14 @@ function createMarkerWithInfo(lat, long, title, link, map) {
 
 function generateMarkersForWorldMap(map) {
 
-    //Norway:
+    // Norway:
     createMarkerWithInfo(62.0751, 9.1272, 'Boogie Feet\'s Festival', 'http://www.boogiefeets.com/', map);
     createMarkerWithInfo(60.3913, 5.3221, 'Swing Brother, Swing!', 'http://swingbrotherswing.no/', map);
 
-    //Sweden:
+    // Poland:
+    createMarkerWithInfo(53.6671796, 17.359013, 'Polish Boogie Festival', 'http://www.polishboogie.com/en/', map);
+
+    // Sweden:
     createMarkerWithInfo(60.128201, 18.648209, 'Herräng Dance Camp Week 1', 'https://www.herrang.com/program/week-1', map);
     createMarkerWithInfo(59.8552777778, 17.6319444444, 'Uppsala Boogie Woogie Weekend', 'http://swingkatten.se/lagerochevenemang', map);
 
