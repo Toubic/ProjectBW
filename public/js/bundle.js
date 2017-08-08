@@ -1,5 +1,14 @@
 'use strict';
 
+/**
+ * Create a marker with info on a Google map.
+ * @param lat (E.g. 62.0751)
+ * @param long (E.g. 9.1272)
+ * @param title (Name of the Boogie Woogie Dance Camp)
+ * @param link (Link to the website of the Boogie Woogie Dance Camp)
+ * @param map (The initialized Google map)
+ */
+
 function createMarkerWithInfo(lat, long, title, link, map) {
     var marker = new google.maps.Marker({
         position: {lat: lat, lng: long},
@@ -21,6 +30,11 @@ function createMarkerWithInfo(lat, long, title, link, map) {
 
 }
 
+/**
+ * Generate Boogie Woogie Dance Camps markers for the whole World.
+ * @param map (The initialized Google map)
+ */
+
 function generateMarkersForWorldMap(map) {
 
     //Norway:
@@ -32,6 +46,10 @@ function generateMarkersForWorldMap(map) {
     createMarkerWithInfo(59.8552777778, 17.6319444444, 'Uppsala Boogie Woogie Weekend', 'http://swingkatten.se/lagerochevenemang', map);
 
 }
+
+/**
+ * Initialize Google map for the whole World.
+ */
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
