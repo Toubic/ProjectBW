@@ -40,6 +40,9 @@ function generateMarkersForWorldMap(map) {
     // Canada:
     createMarkerWithInfo(45.50884, -73.58781, 'Dig Tha\' Feet', 'https://www.digthafeet.com/', map);
 
+    // France:
+    createMarkerWithInfo(48.864716, 2.349014, 'Paris Flying Festival', 'http://www.parisflyingfestival.com/', map);
+
     // Germany:
     createMarkerWithInfo(48.0508, 10.8704, 'BB-DanceCamp', 'http://www.boogie-baeren.de/bb-dancecamp-en.html', map);
     createMarkerWithInfo(51.3397, 12.3731, 'Firebirds Festival Dance Camp', 'https://www.firebirds-festival.de/?tpl=4&language=en', map);
