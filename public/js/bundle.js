@@ -46,6 +46,7 @@ function generateMarkersForWorldMap(map) {
     // France:
     createMarkerWithInfo(48.58392, 7.74553, 'Boogie Spirit Festival', 'https://www.facebook.com/boogiespiritfestival/', map);
     createMarkerWithInfo(48.864716, 2.349014, 'Paris Flying Festival', 'http://www.parisflyingfestival.com/', map);
+    createMarkerWithInfo(44.0833, 4.0833, 'Swing Family Festival', 'http://swingfamilyfestival.fr/sff_en.php', map);
 
     // Germany:
     createMarkerWithInfo(48.0508, 10.8704, 'BB-DanceCamp', 'http://www.boogie-baeren.de/bb-dancecamp-en.html', map);
