@@ -59,6 +59,8 @@ function generateMarkersForWorldMap(map) {
     createMarkerWithInfo(60.128201, 18.648209, 'Herräng Dance Camp Week 1', 'https://www.herrang.com/program/week-1', map);
     createMarkerWithInfo(59.8552777778, 17.6319444444, 'Uppsala Boogie Woogie Weekend', 'http://swingkatten.se/lagerochevenemang', map);
 
+    // Switzerland:
+    createMarkerWithInfo(47.36667, 8.55, 'Swiss Boogie Weekend', 'http://boogieweekend.ch/', map);
 }
 
 /**
