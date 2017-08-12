@@ -7,13 +7,11 @@ body{
     background-color: black;
 }
 nav{
-    height: 50px;
+    height: 150px;
 }
-h1{
-    color: white;
-    text-align: center;
-    font-family: Broadway;
-    font-size: xx-large;
+img{
+    display: block;
+    margin: auto;
 }
 p{
     color: white;
