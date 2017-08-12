@@ -44,6 +44,7 @@ function generateMarkersForWorldMap(map) {
     createMarkerWithInfo(60.6333333, 24.8666667, 'MidSummer Boogie Camp', 'http://www.swinghopping.com/events/with-boogie-woogie/in-finland/june-2017/', map);
 
     // France:
+    createMarkerWithInfo(48.58392, 7.74553, 'Boogie Spirit Festival', 'https://www.facebook.com/boogiespiritfestival/', map);
     createMarkerWithInfo(48.864716, 2.349014, 'Paris Flying Festival', 'http://www.parisflyingfestival.com/', map);
 
     // Germany:
