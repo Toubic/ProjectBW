@@ -42,6 +42,9 @@ function generateMarkersForWorldMap(map) {
     createMarkerWithInfo(51.3397, 12.3731, 'Firebirds Festival Dance Camp', 'https://www.firebirds-festival.de/?tpl=4&language=en', map);
     createMarkerWithInfo(48.1366, 11.5771, 'Rock That Swing Festival', 'http://www.rockthatswing.com', map);
 
+    // Greece:
+    createMarkerWithInfo(37.983810, 23.727539, 'Boogie Woogie Explosion', 'http://www.rollinfoxes.gr/content/boogie-woogie-explosion', map);
+
     // Norway:
     createMarkerWithInfo(62.0751, 9.1272, 'Boogie Feet\'s Festival', 'http://www.boogiefeets.com/', map);
     createMarkerWithInfo(60.3913, 5.3221, 'Swing Brother, Swing!', 'http://swingbrotherswing.no/', map);
