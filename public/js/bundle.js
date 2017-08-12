@@ -40,6 +40,9 @@ function generateMarkersForWorldMap(map) {
     // Canada:
     createMarkerWithInfo(45.50884, -73.58781, 'Dig Tha\' Feet', 'https://www.digthafeet.com/', map);
 
+    // Finland:
+    createMarkerWithInfo(60.6333333, 24.8666667, 'MidSummer Boogie Camp', 'http://www.swinghopping.com/events/with-boogie-woogie/in-finland/june-2017/', map);
+
     // France:
     createMarkerWithInfo(48.864716, 2.349014, 'Paris Flying Festival', 'http://www.parisflyingfestival.com/', map);
 
@@ -80,6 +83,9 @@ function generateMarkersForWorldMap(map) {
 
     // Switzerland:
     createMarkerWithInfo(47.36667, 8.55, 'Swiss Boogie Weekend', 'http://boogieweekend.ch/', map);
+
+    // Ukraine:
+    createMarkerWithInfo(50.45466, 30.5238, 'October Boogie Fest', 'https://www.facebook.com/hotboogiedance', map);
 }
 
 /**
