@@ -51,6 +51,9 @@ function generateMarkersForWorldMap(map) {
     // Greece:
     createMarkerWithInfo(37.983810, 23.727539, 'Boogie Woogie Explosion', 'http://www.rollinfoxes.gr/content/boogie-woogie-explosion', map);
 
+    // Netherlands:
+    createMarkerWithInfo(52.370216, 4.895168, 'Jump Up The Boogie Train', 'http://www.jumpupboogiewoogie.nl/', map);
+
     // Norway:
     createMarkerWithInfo(62.0751, 9.1272, 'Boogie Feet\'s Festival', 'http://www.boogiefeets.com/', map);
     createMarkerWithInfo(60.3913, 5.3221, 'Swing Brother, Swing!', 'http://swingbrotherswing.no/', map);
@@ -63,6 +66,9 @@ function generateMarkersForWorldMap(map) {
 
     // South Korea:
     createMarkerWithInfo(37.532600, 127.024612, 'Rockin’ & Swingin’ Festival', 'http://rockinswingin.com/', map);
+
+    // Spain:
+    createMarkerWithInfo(41.390205, 2.154007, 'Rock it!', 'http://rockitbcn.com/', map);
 
     // Sweden:
     createMarkerWithInfo(60.128201, 18.648209, 'Herräng Dance Camp Week 1', 'https://www.herrang.com/program/week-1', map);
