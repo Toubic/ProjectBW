@@ -15,6 +15,12 @@ h1{
     font-family: Broadway;
     font-size: xx-large;
 }
+p{
+    color: white;
+    text-align: right;
+    font-family: Broadway;
+    padding-right: 5px;
+}
 main{
     padding: 50px;
     background-size: cover;
