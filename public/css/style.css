@@ -9,15 +9,12 @@ body{
 nav{
     height: 150px;
 }
-img{
+#logo{
     display: block;
     margin: auto;
 }
-p{
-    color: white;
-    text-align: right;
-    font-family: Broadway;
-    padding-right: 5px;
+#madeBy{
+    float: right;
 }
 main{
     padding: 50px;
