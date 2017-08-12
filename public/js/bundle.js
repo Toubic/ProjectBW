@@ -53,6 +53,7 @@ function generateMarkersForWorldMap(map) {
 
     // Italy:
     createMarkerWithInfo(40.20763, 16.67071, 'Policoro in Swing', 'http://www.policoroinswing.com/', map);
+    createMarkerWithInfo(43.71626, 13.20882, 'Summer Jamboree', 'http://www.summerjamboree.com', map);
 
     // Netherlands:
     createMarkerWithInfo(52.370216, 4.895168, 'Jump Up The Boogie Train', 'http://www.jumpupboogiewoogie.nl/', map);
