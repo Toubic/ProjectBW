@@ -51,6 +51,9 @@ function generateMarkersForWorldMap(map) {
     // Greece:
     createMarkerWithInfo(37.983810, 23.727539, 'Boogie Woogie Explosion', 'http://www.rollinfoxes.gr/content/boogie-woogie-explosion', map);
 
+    // Italy:
+    createMarkerWithInfo(40.20763, 16.67071, 'Policoro in Swing', 'http://www.policoroinswing.com/', map);
+
     // Netherlands:
     createMarkerWithInfo(52.370216, 4.895168, 'Jump Up The Boogie Train', 'http://www.jumpupboogiewoogie.nl/', map);
 
