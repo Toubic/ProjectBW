@@ -11,6 +11,12 @@ try {
         res.sendFile('index.html');
     });
 
+    // Make robots.txt public:
+
+    app.get('/robots.txt', function (req, res) {
+        res.sendFile('robots.txt');
+    });
+
     // Send page missing message for all other routes that does not exist.
 
     app.get('*', function (req, res) {
